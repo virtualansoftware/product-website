@@ -53,12 +53,16 @@
 	{
 		text-decoration: none;
 	}
+
+	.centerize
+	{
+	}
 	
 	.container
 	{
 		overflow: hidden;
 		margin: 0em auto;
-		width: 100%;
+		width: 1200px;
 	}
 	
 /*********************************************************************************/
