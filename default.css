@@ -12,6 +12,7 @@
 		font-size: 12pt;
 		font-weight: 300;
 		color: #000000;
+		width: 100%;
 	}
 	
 	
@@ -57,7 +58,7 @@
 	{
 		overflow: hidden;
 		margin: 0em auto;
-		width: 1200px;
+		width: 100%;
 	}
 	
 /*********************************************************************************/
@@ -313,11 +314,13 @@
 
 	#banner
 	{
-		overflow: hidden;
-		padding: 15em 0em;
+  	padding: 15em 0em;
 		background: url(images/banner.jpg);
-		background-size: cover;
 		border-top: 1px solid rgba(0,0,0,0.08);
+  	background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+
 	}
 
 
