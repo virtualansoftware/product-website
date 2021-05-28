@@ -258,7 +258,8 @@
 
 	#menu
 	{
-		position: absolute;
+	  margin: 0 0 0 auto;
+		position: fixed;
 		top: 5em;
 		right: 0;
 	}
@@ -311,13 +312,15 @@
 /*********************************************************************************/
 
 	#banner
-	{
-		overflow: hidden;
-		padding: 15em 0em;
-		background: url(images/banner.jpg) no-repeat center;
-		background-size: cover;
-		border-top: 1px solid rgba(0,0,0,0.08);
-	}
+
+		{
+  		position: relative;
+  		padding: 13em 0em;
+  		background: url(images/banner.jpg) no-repeat center;
+  		background-size: cover;
+  		color: #fff;
+  	}
+
 
 /*********************************************************************************/
 /* Page                                                                          */
