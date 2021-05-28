@@ -259,7 +259,7 @@
 	#menu
 	{
 	  margin: 0 0 0 auto;
-		position: fixed;
+		position: absolute;
 		top: 5em;
 		right: 0;
 	}
@@ -281,7 +281,7 @@
 			content: "//";
 			padding: 1em 1.5em;
 			font-weight: 700;
-			color: rgba(0,0,0,.6);
+			color: rgn(0,0,0,.6);
 		}
 	
 	#menu li a, #menu li span
@@ -289,7 +289,7 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		font-weight: 600;
-		font-size: 1em;
+		font-size: 1em;n
 		color: rgba(0,0,0,.4);
 	}
 	
@@ -312,14 +312,13 @@
 /*********************************************************************************/
 
 	#banner
-
-		{
-  		position: relative;
-  		padding: 13em 0em;
-  		background: url(images/banner.jpg) no-repeat center;
-  		background-size: cover;
-  		color: #fff;
-  	}
+	{
+		overflow: hidden;
+		padding: 15em 0em;
+		background: url(images/banner.jpg);
+		background-size: cover;
+		border-top: 1px solid rgba(0,0,0,0.08);
+	}
 
 
 /*********************************************************************************/
