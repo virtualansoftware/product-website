@@ -407,6 +407,14 @@
 		color: #8dc63f;
 	}
 
+
+	.align-center
+	{
+		text-align: center;
+    font-size: 1.8em;
+	  color: #000000;
+	}
+
 	#featured .align-right
 	{
 		float: right;
