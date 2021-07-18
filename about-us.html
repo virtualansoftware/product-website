@@ -21,8 +21,12 @@ Released   : 20130902
 <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
 <link href="default.css" rel="stylesheet" type="text/css" media="all" />
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link href="cookie.css" rel="stylesheet" type="text/css" media="all" />
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NWY4CW88VL"></script>
+<script data-cfasync="false"
+				src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
@@ -30,7 +34,8 @@ gtag('js', new Date());
 gtag('config', 'G-NWY4CW88VL');
 </script>
 
-	<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
 </head>
 <body>
@@ -74,5 +79,25 @@ gtag('config', 'G-NWY4CW88VL');
 <div id="copyright" class="container">
 	<p>&copy;Virtualan Software. All rights reserved. | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
 </div>
+
+<!-- Start Cookie -->
+<script src="js/cookie.js"></script>
+<div id="myCookieConsent">
+	<a id="cookieButton">Got it</a>
+	<div>We use cookie to improve your experience on our site. By using our site you consent cookies.&nbsp; 
+    <a href="#privacy" id="privacy-link">More&nbsp;details</a></div>
+</div>
+
+<div id="privacy" class="overlay">
+  <div class="popup">
+    <h2>Privacy Policy</h2>
+    <a class="close" href="#">&times;</a>
+    <div class="content" id="privacy-doc">
+    </div>
+</div>
+</div>
+<!-- End Cookie -->
+
+
 </body>
 </html>
