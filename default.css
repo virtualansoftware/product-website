@@ -451,10 +451,13 @@
 		width: 40px;
 		height: 40px;
 		padding: 10px;
+		display: inline;
 	  }
 	  
 	  .header h1 {
-		margin-right: 10px;
+		margin-right: 50px;
 		position: relative;
 		padding: 10px;
+		color: #800040;
+		font-size: 1.5em;
 	  }
